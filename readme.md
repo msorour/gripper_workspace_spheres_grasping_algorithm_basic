@@ -1,6 +1,3 @@
-**Dependency**:
-Please install [quadprog++](https://github.com/liuq/QuadProgpp)
-
 **To run this algorithm**:
 1. make sure to remove the build folder and make a new one (this is done only once):
 rm -r build/ && mkdir build
