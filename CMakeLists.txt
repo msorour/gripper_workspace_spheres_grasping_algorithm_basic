@@ -24,4 +24,4 @@ set (CMAKE_CXX_STANDARD 11)
 
 
 add_executable (grasping_algorithm grasping_algorithm.cpp)
-target_link_libraries (grasping_algorithm ${PCL_LIBRARIES}  ${roscpp_LIBRARIES} ${catkin_LIBRARIES} quadprog)
+target_link_libraries (grasping_algorithm ${PCL_LIBRARIES}  ${roscpp_LIBRARIES} ${catkin_LIBRARIES})
