@@ -1,6 +1,5 @@
 **To run this algorithm**:
-1. make sure to remove the build folder and make a new one (this is done only once):
-rm -r build/ && mkdir build
+1. mkdir build
 
 2. use the following command in the build folder:
 reset && cmake .. && make -j7 && ./grasping_algorithm ../gripper_pcd_model/allegro_right_hand_model_cloud_plus_camera_downsampled_100.pcd 3_view ../3_view_object_pcd_files/cup_without_handle 4 4 4 3 3 3
