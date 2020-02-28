@@ -2,9 +2,11 @@
 1. `mkdir build && cd build/`
 
 2. use the following command example to use 3-view point cloud:
+
 `reset && cmake .. && make -j7 && ./grasping_algorithm ../gripper_pcd_model/allegro_right_hand_model_cloud_plus_camera_downsampled_100.pcd 3_view ../3_view_object_pcd_files/cup_without_handle 4 4 4 3 3 3`
 
 Or use the following command example to use single view point cloud:
+
 `reset && cmake .. && make -j7 && ./grasping_algorithm ../gripper_pcd_model/allegro_right_hand_model_cloud_plus_camera_downsampled_100.pcd single ../single_view_object_pcd_files/cocacola_bottle.pcd 10 10 10 7 7 7`
 
 **The algorithm takes 9 input arguments**:
